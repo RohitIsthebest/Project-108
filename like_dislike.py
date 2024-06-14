@@ -41,7 +41,7 @@ while True:
                         cv2.putText(img,"LIKE",(20,30),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),3)
                     if lm_list[thumb_tip].y >  lm_list[thumb_tip-1].y > lm_list[thumb_tip-2].y:
                         print("DisLike")
-                        cv2.putText(img,"DisLIKE",(20,30),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),3)
+                        cv2.putText(img,"DisLIKE",(20,30),cv2.FONT_HERSHEY_COMPLEX,1,(0,0,255),3)
 
 
 
